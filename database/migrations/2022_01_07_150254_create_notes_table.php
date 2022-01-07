@@ -17,10 +17,10 @@ class CreateNotesTable extends Migration
            $table->increments('id');
            $table->integer('user_id');
            $table->integer('lesson_id');
-           $table->text('task');
-           $table->text('test');
-           $table->text('content');
-           $table->text('others');
+           $table->text('task')->nullable();
+           $table->text('test')->nullable();
+           $table->text('content')->nullable();
+           $table->text('others')->nullable();
             $table->timestamps();
         });
     }

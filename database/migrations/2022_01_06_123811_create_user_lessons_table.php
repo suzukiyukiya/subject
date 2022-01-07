@@ -15,8 +15,8 @@ class CreateUserLessonsTable extends Migration
     {
         Schema::create('user_lessons', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
-            $table->integer('lesson_id');
+            $table->integer('user_id')->nullable();
+            $table->integer('lesson_id')->nullable();
             $table->timestamps();
         });
     }
