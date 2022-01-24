@@ -18,6 +18,10 @@ Route::get('/fields', 'FieldController@index');
 Route::get('/subject_groups', 'Subject_groupController@index');
 Route::get('/time_tables', 'Time_tableController@index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'LessonController@index')->middleware('auth');
+Route::post('/select', 'LessonController@store');
+
+
+Auth::routes();
+
+
