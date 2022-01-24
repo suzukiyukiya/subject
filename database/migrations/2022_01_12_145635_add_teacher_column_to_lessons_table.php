@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTimeTablesTable extends Migration
+class AddTeacherColumnToLessonsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateTimeTablesTable extends Migration
      */
     public function up()
     {
-        Schema::create('time_tables', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('time_table_name',50)->nullable();
-            $table->timestamps();
+        Schema::table('lessons', function (Blueprint $table) {
+            $table->string('teacher', 50)->nullable();
         });
     }
 
@@ -27,6 +25,8 @@ class CreateTimeTablesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('time_tables');
+        Schema::table('lessons', function (Blueprint $table) {
+            //
+        });
     }
 }
