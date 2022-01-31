@@ -14,10 +14,11 @@ class CreateLessonUserTable extends Migration
     public function up()
     {
         Schema::create('lesson_user', function (Blueprint $table) {
-             $table->integer('user_id');
-            $table->integer('lesson_id');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('lesson_id');
             $table->primary(['user_id', 'lesson_id']);
-            $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('lesson_id')->references('id')->on('lessons')->onDelete('cascade');
         });
     }
 

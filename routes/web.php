@@ -19,6 +19,7 @@ Route::get('/subject_groups', 'Subject_groupController@index');
 Route::get('/time_tables', 'Time_tableController@index');
 
 Route::get('/', 'LessonController@index')->middleware('auth');
+Route::get('/process', 'LessonController@process');
 Route::post('/select', 'LessonController@store');
 
 
