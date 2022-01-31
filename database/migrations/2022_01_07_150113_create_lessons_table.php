@@ -18,7 +18,6 @@ class CreateLessonsTable extends Migration
             $table->string('lesson_name', 50);
             $table->integer('field_id');
             $table->integer('subject_group_id');
-            $table->integer('time_table_id')->nullable();
             $table->timestamps();
         });
     }

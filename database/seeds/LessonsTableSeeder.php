@@ -21,6 +21,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -34,6 +35,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -48,6 +50,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '山田永',
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -61,6 +64,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -74,6 +78,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ], 
         ]);
          DB::table('lessons')->insert([
@@ -87,6 +92,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ], 
         ]);
          DB::table('lessons')->insert([
@@ -100,6 +106,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -113,6 +120,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -126,6 +134,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -139,6 +148,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -152,6 +162,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -165,6 +176,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -178,6 +190,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -191,6 +204,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -204,6 +218,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -217,6 +232,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -230,6 +246,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 6,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -243,6 +260,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -257,6 +275,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '山田永',
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -271,20 +290,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '横山悠理',
-        ],
-        ]);
-         DB::table('lessons')->insert([
-        [
-        'id' => 21,
-        'lesson_name' => '生命の多様性',
-        'field_id' => 1,
-        'subject_group_id' => 4,
-        'term' => '後期',
-        'week' => '木曜日',
-        'hour' => 2,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '谷口義則',
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -298,6 +304,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -312,20 +319,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '水尾衣里',
-        ],
-        ]);
-         DB::table('lessons')->insert([
-        [
-        'id' => 24,
-        'lesson_name' => '人間とデザイン',
-        'field_id' => 1,
-        'subject_group_id' => 4,
-        'term' => '後期',
-        'week' => '水曜日',
-        'hour' => 3,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '水尾衣里',
+        'unit' => 2,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -340,6 +334,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '石田理可',
+        'unit' => 1,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -354,6 +349,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'BARNES',
+        'unit' => 1,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -368,6 +364,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '山田幸代',
+        'unit' => 1,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -382,6 +379,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'Ricart',
+        'unit' => 1,
         ],
         ]);
          DB::table('lessons')->insert([
@@ -396,6 +394,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '大橋千焼',
+        'unit' => 1,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -410,6 +409,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'BUCSIS',
+        'unit' => 1,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -424,6 +424,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '有為楠',
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -438,6 +439,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'Ricart',
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -451,6 +453,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -464,6 +467,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -477,6 +481,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -490,6 +495,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -504,20 +510,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '船田秀佳',
-        ],
-       ]);
-       DB::table('lessons')->insert([
-        [
-        'id' => 38,
-        'lesson_name' => '中国語入門',
-        'field_id' => 1,
-        'subject_group_id' => 6,
-        'term' => '前期',
-        'week' => '木曜日',
-        'hour' => 3,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '蟹江静夫',
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -531,6 +524,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -544,6 +538,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -557,6 +552,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -570,6 +566,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -583,6 +580,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -596,6 +594,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -609,6 +608,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -622,6 +622,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -635,6 +636,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -649,48 +651,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '秋月久見子',
-        ],
-       ]);
-        DB::table('lessons')->insert([
-        [
-        'id' => 49,
-        'lesson_name' => 'コンピュータリテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '前期',
-        'week' => '火曜日',
-        'hour' => 3,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '丹羽直美',
-        ],
-       ]);
-        DB::table('lessons')->insert([
-        [
-        'id' => 50,
-        'lesson_name' => 'コンピュータリテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '前期',
-        'week' => '火曜日',
-        'hour' => 4,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '丹羽直美',
-        ],
-       ]);
-       DB::table('lessons')->insert([
-        [
-        'id' => 51,
-        'lesson_name' => 'コンピュータリテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '前期',
-        'week' => '金曜日',
-        'hour' => 4,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '秋月久見子',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -705,51 +666,10 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '秋月久見子',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
-        [
-        'id' => 53,
-        'lesson_name' => '情報活用リテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '後期',
-        'week' => '火曜日',
-        'hour' => 3,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '丹羽直美',
-        ],
-       ]);
-        DB::table('lessons')->insert([
-        [
-        'id' => 54,
-        'lesson_name' => '情報活用リテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '後期',
-        'week' => '金曜日',
-        'hour' => 4,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '秋月久見子',
-        ],
-       ]);
-        DB::table('lessons')->insert([
-        [
-        'id' => 55,
-        'lesson_name' => '情報活用リテラシー',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '後期',
-        'week' => '火曜日',
-        'hour' => 4,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '丹羽直美',
-        ],
-       ]);
-        DB::table('lessons')->insert([
         [
         'id' => 56,
         'lesson_name' => '情報処理入門',
@@ -761,20 +681,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '丹羽直美',
-        ],
-       ]);
-       DB::table('lessons')->insert([
-        [
-        'id' => 57,
-        'lesson_name' => '情報処理入門',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '前期',
-        'week' => '木曜日',
-        'hour' => 3,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '丹羽直美',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -789,23 +696,10 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '秋月久見子',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
-        [
-        'id' => 59,
-        'lesson_name' => '情報社会と倫理',
-        'field_id' => 1,
-        'subject_group_id' => 7,
-        'term' => '後期',
-        'week' => '金曜日',
-        'hour' => 2,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '秋月久見子',
-        ],
-       ]);
-       DB::table('lessons')->insert([
         [
         'id' => 60,
         'lesson_name' => '健康・スポーツ科学１',
@@ -817,6 +711,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '千葉洋平',
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -831,6 +726,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '黒田真二',
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -845,23 +741,10 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '山田永',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
-        [
-        'id' => 63,
-        'lesson_name' => '教養演習',
-        'field_id' => 1,
-        'subject_group_id' => 9,
-        'term' => '後期',
-        'week' => '水曜日',
-        'hour' => 4,
-        'created_at' => date('Y-m-d H:i:s'),
-        'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '山田永',
-        ],
-       ]);
-        DB::table('lessons')->insert([
         [
         'id' => 64,
         'lesson_name' => 'キャリア形成論',
@@ -873,6 +756,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '中島愛子',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -886,6 +770,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -899,6 +784,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -912,6 +798,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -925,6 +812,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -938,6 +826,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -952,6 +841,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '水尾衣里',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -966,6 +856,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '和田実',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -980,6 +871,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '原田知佳',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -994,6 +886,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '畑中美穂',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -1007,6 +900,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1020,6 +914,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -1033,6 +928,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1046,6 +942,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1059,6 +956,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1072,6 +970,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1085,6 +984,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1098,6 +998,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1111,6 +1012,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1124,6 +1026,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1138,6 +1041,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '原田知佳',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1152,6 +1056,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '志村ゆず',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1165,6 +1070,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1178,6 +1084,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1192,6 +1099,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '幸順子',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -1205,6 +1113,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1218,6 +1127,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1231,6 +1141,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1244,6 +1155,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -1257,6 +1169,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -1270,6 +1183,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1283,6 +1197,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1297,6 +1212,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '塩崎万里',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1311,6 +1227,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '加藤英明',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1324,6 +1241,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1337,6 +1255,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1350,6 +1269,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1364,6 +1284,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '安藤喜代美',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1377,6 +1298,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1390,6 +1312,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1403,6 +1326,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1416,6 +1340,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1429,6 +1354,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1442,6 +1368,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1456,6 +1383,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '笠井尚',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1466,6 +1394,7 @@ class LessonsTableSeeder extends Seeder
         'subject_group_id' => 13,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1479,6 +1408,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1492,6 +1422,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1505,6 +1436,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1518,6 +1450,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1531,6 +1464,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1544,6 +1478,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1557,6 +1492,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1570,6 +1506,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1583,6 +1520,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1596,6 +1534,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1609,6 +1548,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1622,6 +1562,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1635,6 +1576,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1648,6 +1590,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1661,6 +1604,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1674,6 +1618,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1687,6 +1632,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1700,6 +1646,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1713,6 +1660,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1726,6 +1674,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1739,6 +1688,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1752,6 +1702,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1765,6 +1716,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1778,6 +1730,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1791,6 +1744,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1804,6 +1758,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1818,6 +1773,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '村元麻衣',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1832,6 +1788,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'WESTBY',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1845,6 +1802,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1859,6 +1817,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'THOMAS',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1872,6 +1831,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1886,6 +1846,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '船田秀佳',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1900,6 +1861,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'BEECH',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1913,6 +1875,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1926,6 +1889,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1939,6 +1903,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1952,6 +1917,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1965,7 +1931,8 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => '一ノ谷清美'
+        'teacher' => '一ノ谷清美',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1979,6 +1946,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -1992,6 +1960,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2005,6 +1974,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2018,6 +1988,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2031,6 +2002,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2044,6 +2016,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2057,6 +2030,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2070,7 +2044,8 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
-        'teacher' => 'SWEETLOVE'
+        'teacher' => 'SWEETLOVE',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2084,6 +2059,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2097,6 +2073,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 1,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2110,6 +2087,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 1,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2123,6 +2101,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 3,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -2136,6 +2115,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -2147,6 +2127,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '加藤昌弘',
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -2160,6 +2141,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2173,6 +2155,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 2,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2183,6 +2166,7 @@ class LessonsTableSeeder extends Seeder
         'subject_group_id' => 15,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2193,6 +2177,7 @@ class LessonsTableSeeder extends Seeder
         'subject_group_id' => 15,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2203,6 +2188,7 @@ class LessonsTableSeeder extends Seeder
         'subject_group_id' => 15,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2217,6 +2203,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => 'WESTBY',
+        'unit' => 4,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2227,6 +2214,7 @@ class LessonsTableSeeder extends Seeder
         'subject_group_id' => 15,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 4,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2240,6 +2228,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 5,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -2253,6 +2242,7 @@ class LessonsTableSeeder extends Seeder
         'hour' => 4,
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
+        'unit' => 2,
         ],
        ]);
         DB::table('lessons')->insert([
@@ -2267,6 +2257,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '笠井尚',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2281,6 +2272,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '志村ゆず',
+        'unit' => 2,
         ],
        ]);
        DB::table('lessons')->insert([
@@ -2295,6 +2287,7 @@ class LessonsTableSeeder extends Seeder
         'created_at' => date('Y-m-d H:i:s'),
         'updated_at' => date('Y-m-d H:i:s'),
         'teacher' => '水尾衣里',
+        'unit' => 4,
         ],
        ]);
     }
